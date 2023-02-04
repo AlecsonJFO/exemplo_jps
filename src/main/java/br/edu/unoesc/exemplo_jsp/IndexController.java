@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class IndexController {
 	@RequestMapping("/jsp")
 	String jsp(Model model) {
-		Produto p1 = new Produto("Mesa", 10, new BigDecimal("3.33"));
+		Produto p1 = new Produto("Cadeira", 10, new BigDecimal("3.33"));
 		Produto p2 = new Produto("Televisão", 20, new BigDecimal("33.33"));
 
 		List<Produto> produtos = new ArrayList<Produto>();
